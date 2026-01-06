@@ -40,6 +40,11 @@ int main() {
     }
 
     while (vidasPlayer) {
+       if(comida == 0 || pessoas == 0){
+        std::cout << "voce perdeu ;-;" ;
+        vidasPlayer = false;
+       }
+
         char b;
         std::cout << "dia/s " << dias << '\n';
         std::cout << "moeda " << moeda << " pessoa " << pessoas << " comida " << comida <<"\n";
