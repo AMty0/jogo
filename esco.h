@@ -2,3 +2,4 @@
 
 void soldado();
 void esco ();
+void proximo();

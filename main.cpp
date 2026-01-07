@@ -5,7 +5,6 @@
 #include "global.h"
 #include "salvar.h"
 #include "esco.h"
-#include "proximo.h"
 
 
 int main() {
